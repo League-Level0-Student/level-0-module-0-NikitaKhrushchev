@@ -13,7 +13,15 @@ public class RobotSquare {
  
     	// 1. Make a new Robot
 
-
+    		Robot mark = new Robot();
+    		mark.penDown();
+    		mark.setSpeed(20);
+    		for (int i = 0; i < 4; i++) {
+    			mark.move(200);
+    			mark.turn(90);
+    		}
+}
+    }
         // 3. Put the robot's pen down
 
 
@@ -29,5 +37,5 @@ public class RobotSquare {
         //         4. Turn the robot 90 degrees to the right (90 degrees)
 
 
-    }
-}
+  
+
